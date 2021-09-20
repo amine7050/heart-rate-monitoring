@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Température</title>
+		<title>Hart rate </title>
 		<meta charset="utf-8">
 		<!-- Script for updating pages without refreshing the page -->
 		<script src="jquery.min.js"></script>
@@ -12,7 +12,7 @@
 				{
 					jQuery.ajax({
 						type:"GET",
-						url: "read_db.php",
+						url: "read_data.php",
 						data:"",
 						beforeSend: function() {
 						},
@@ -42,11 +42,11 @@
 		</style>
 	</head>
 	<body>
-		<h1 align="center" style="color:#1f5380;">Température</h1>
+		<h1 align="center" style="color:#1f5380;">hart rate </h1>
 		<table>
 			<tr>
 				<th>No</th> 
-				<th>Température</th> 
+				<th>hart rate</th> 
 				<th>Date</th>
 				<th>Time</th>
 			</tr>
